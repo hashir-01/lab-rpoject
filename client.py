@@ -6,7 +6,7 @@ import subprocess
 s = socket.socket() # client computer can connect to others
 
 # ip address of server, can use own computer's private IP if doing on local
-host = "10.120.166.248"
+host = "10.120.150.24"
 port = 9999
 
 s.connect((host, port)) # binds client computer to server computer
